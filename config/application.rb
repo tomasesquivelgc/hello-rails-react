@@ -23,11 +23,5 @@ module HelloRailsReact
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    config.middleware.insert_before 0, Rack::Cors do
-      allow do
-        origins 'http://127.0.0.1:3000'
-        resource '/messages/random', headers: :any, methods: [:get]
-      end
-    end
   end
 end
