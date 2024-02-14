@@ -14,7 +14,6 @@ const Greeting = () => {
   return (
     <>
       <h2>{greetingItem}</h2>
-      <h3>{greetingItem.content}</h3>
     </>
   );
 };
