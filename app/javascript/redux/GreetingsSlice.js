@@ -6,9 +6,9 @@ export const getGreetings = createAsyncThunk(
   async (arg, { rejectWithValue }) => {
     try {
       const response = await axios.get(
-        'http://127.0.0.1:3000/api/greetings/pick',
+        'http://localhost:3000/messages/random',
       );
-      const endData = response.data.message;
+      const endData = response.data.content;
       return endData;
     } catch (error) {
       return rejectWithValue(error.message);
