@@ -118,9 +118,7 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Tomás Matías Esquivel**
 
 - GitHub: [@tomasesquivelgc](https://github.com/tomasesquivelgc)
 - Twitter: [@EsquivelTomas](https://twitter.com/EsquivelTomas)
